@@ -48,7 +48,7 @@ Pour faire tourner le projet sur votre machine :
 Cloner le dépôt :
 code
 Bash
-git clone https://gitlab.formuloo.com/votre-user/mini-projet-afrique.git
+git clone https://github.com/Tandah-Marcelle/Dashboard-Analytique-Streamlit-sur-Dataset-Population-Africaine.git
 cd mini-projet-afrique
 Installer les dépendances :
 code

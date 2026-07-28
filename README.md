@@ -2,8 +2,9 @@
 
 # Project Overview
 
-This project was developed as part of Sprint S2 during my Master 2 internship at Formuloo.
-The objective is to transform raw World Bank data concerning the population of 54 African countries (from 1960 to 2023) into an interactive and visual decision-making tool.
+Africa Population Pulse is an interactive analytical and descision making tool built with Streamlit to visualize and analyze historical and projected demographic trends across 54 African countries(from 1960 -2023).
+
+The raw dataset originally contained 54 separate year columns, making analysis and visualization inefficient. An ETL pipeline was constructed to unpivot (reshape) the dataset into a clean, long-format time series consisting of over 3,700 observations. The application features interactive dark-mode visualizations including distribution boxplots, correlation matrices, dynamic metric cards, and geographic heatmaps.
 Dashboard Link: https://dashboard-analytique-app-sur-dataset-population-africaine-xdh8.streamlit.app/
 
 # Tech Stack
